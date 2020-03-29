@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <item>
+            <title>Actividad 1 xsd. Documento xml </title>
+            <link>https://github.com/a19sotean/Lenguaje-de-marcas/blob/master/actividad1xsd.xml</link>
+            <descripcion>Documento xml del ejercicio de los países.</descripcion>
+        </item>
+        
+    </channel>
+</rss>

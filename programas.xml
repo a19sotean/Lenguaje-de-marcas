@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE programas [
+<!ELEMENT programas (programa+)>
+<!ELEMENT programa (#PCDATA)>
+<!ATTLIST programa nombre ID #REQUIRED>
+<!ATTLIST programa licencia CLASS #REQUIRED>
+]>
+<programas>
+<programa nombre="Firefox" licencia="GPL" licencia="MPL" />
+<programa nombre="LibreOffice" licencia="LGPL" />
+<programa nombre="Inkscape" licencia=GPL />
+</programas>

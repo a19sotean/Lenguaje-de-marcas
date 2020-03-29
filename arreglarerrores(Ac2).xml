@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE errores [
+<!ELEMENT errores (error+)>
+<!ELEMENT error (codigo, descripcion, actividad, fecha_hora, ncolumna?, nfila?)>
+<!ELEMENT codigo (#PCDATA)>
+<!ATTLIST error id CDATA #REQUIRED>
+<!ATTLIST error tipo CDATA #REQUIRED>
+<!ATTLIST error tipo (Aviso|Warning|Fatal) "Aviso">
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT actividad (#PCDATA)>
+<!ELEMENT fecha_hora (#PCDATA)>
+<!ELEMENT ncolumna (#PCDATA)>
+<!ELEMENT nfila (#PCDATA)>
+]>
+
+<errores>
+  <error id="id_1" tipo="Aviso">
+    <codigo>
+    ejemplo1
+    </codigo>
+    <descripcion>
+    Tipos no coinciden
+    </descripcion>
+    <actividad>
+    nota.dtd
+    </actividad>
+    <fecha_hora>
+    17/02/2020:8:50
+    </fecha_hora>
+    <ncolumna>
+    3
+    </ncolumna>
+
+  </error>
+
+  <error id="id_2" tipo="Aviso">
+    <codigo>
+    ejemplo1
+    </codigo>
+    <descripcion>
+    Un elemento no está declarado
+    </descripcion>
+    <actividad>
+    nota.dtd
+    </actividad>
+    <fecha_hora>
+    17/02/2020:8:56
+    </fecha_hora>
+    <nfila>
+    14
+    </nfila>
+  
+  </error>
+
+  <error id="id_3" tipo="Aviso">
+    <codigo>
+    actividad3
+    </codigo>
+    <descripcion>
+    El documento no está bien formado, falta el DOCTYPE
+    </descripcion>
+    <actividad>
+    actividad3.xml
+    </actividad>
+    <fecha_hora>
+    17/02/2020:9:26
+    </fecha_hora>
+    <nfila>
+    1
+    </nfila>
+  
+  </error>
+
+
+  <error id="id_4" tipo="Aviso">
+    <codigo>
+    actividad3
+    </codigo>
+    <descripcion>
+    The content of element type "etiqueta" must match "(nombre,calle,ciudad,pais,codigo)".
+    </descripcion>
+    <actividad>
+    actividad3.xml
+    </actividad>
+    <fecha_hora>
+    17/02/2020:9:30
+    </fecha_hora>
+    <nfila>
+    11
+    </nfila>
+  
+  </error>
+
+
+  <error id="id_5" tipo="Aviso">
+        <codigo>
+        actividad4
+        </codigo>
+        <descripcion>
+        Document root element "persona", must match DOCTYPE root "agenda".
+        </descripcion>
+        <actividad>
+        actividad4(agenda).xml
+        </actividad>
+        <fecha_hora>
+        17/02/2020:9:50
+        </fecha_hora>
+        <nfila>
+        10
+        </nfila>
+      
+      </error>
+
+
+      <error id="id_6" tipo="Aviso">
+        <codigo>
+        actividad4
+        </codigo>
+        <descripcion>
+        The element type "tlf" must be terminated by the matching end-tag  "/tlf>".
+        </descripcion>
+        <actividad>
+        actividad4(agenda).xml
+        </actividad>
+        <fecha_hora>
+        17/02/2020:9:55
+        </fecha_hora>
+        <nfila>
+        17
+        </nfila>
+      
+      </error>
+
+
+      <error id="id_7" tipo="Aviso">
+        <codigo>
+        actividad4
+        </codigo>
+        <descripcion>
+        Attribute "id" is required and must be specified for element type "persona".
+        </descripcion>
+        <actividad>
+        actividad4(agenda).xml
+        </actividad>
+        <fecha_hora>
+        17/02/2020:9:57
+        </fecha_hora>
+        <nfila>
+        10
+        </nfila>
+      
+      </error>
+
+
+      <error id="id_8" tipo="Aviso">
+        <codigo>
+        actividad4
+        </codigo>
+        <descripcion>
+        The markup in the document following the root element must be well-formed.
+        </descripcion>
+        <actividad>
+        actividad4(agenda).xml
+        </actividad>
+        <fecha_hora>
+        17/02/2020:10:00
+        </fecha_hora>
+        <nfila>
+        15
+        </nfila>
+      
+      </error>
+
+
+      <error id="id_9" tipo="Aviso">
+        <codigo>
+        actividad4
+        </codigo>
+        <descripcion>
+        Element type "tw" must be declared.
+        </descripcion>
+        <actividad>
+        actividad4(agenda).xml
+        </actividad>
+        <fecha_hora>
+        17/02/2020:10:05
+        </fecha_hora>
+        <nfila>
+        19
+        </nfila>
+      
+      </error>
+</errores>

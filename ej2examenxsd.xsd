@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  
+    <xs:complexType name="curriculum">
+      <xs:sequence>
+        <xs:element name="datos_personales" type="xs:string"></xs:element>
+        <xs:element name="datos_academicos" type="xs:string"></xs:element>
+        <xs:element name="experiencia laboral" type="xs:string"></xs:element>
+      </xs:sequence>
+        <xs:attribute name="id" type="xs:integer" use="required"></xs:attribute>
+        <xs:attribute name="fecha" type="xs:date" use="required"></xs:attribute>
+        <xs:attribute name="categoria" type="xs:string" use="optional" default="Desarrollador"></xs:attribute>
+    </xs:complexType>
+    
+    <xs:complexType name="datos_personales">
+    <xs:sequence>
+      <xs:element name="nombre" type="xs:string" />
+      <xs:element name="apellido1" type="xs:string" />
+      <xs:element name="apellido2" type="xs:string" />
+      <xs:element name="telefono" type="xs:integer" />
+      <xs:element name="correo_electronico" type="xs:emailAddress" />
+      <xs:element name="direccion" type="xs:direccion" minOccurs="0" maxOccurs="2" />
+      <xs:element name="redes_sociales" type="xs:integer" minOccurs="0" maxOccurs="5" />
+    </xs:sequence>
+    </xs:complexType>
+
+  <xs:simpleType name="codigo_postal">
+    <xs:restriction base="xs:positiveInteger">
+      <xs:totalDigits value="5" />
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="correo_electronico">
+    <xs:restriction base="xs:string">
+      <xs:pattern value=""   /> 
+    </xs:restriction>  
+  </xs:simpleType>
+  
+  <xs:complexType name="datos_academicos">
+    <xs:sequence>
+      <xs:element name="descripcion" type="xs:string" />
+      <xs:element name="fecha_inicio" type="xs:date" />
+      <xs:element name="fecha_fin" type="xs:date" />
+    </xs:sequence>
+    </xs:complexType>
+  
+  
+  </xs:schema>
+  </xs:element>
+</xs:schema>

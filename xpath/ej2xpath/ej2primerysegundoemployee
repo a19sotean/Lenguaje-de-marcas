@@ -1,0 +1,5 @@
+﻿//   //employee[position()=1 or position()=2]   (Selecciona el primer y segundo elemento 'employee', utilizando su posición.)
+
+
+<employee id="1">Johnny Dapp</employee>
+<employee id="2">Al Pacino</employee>

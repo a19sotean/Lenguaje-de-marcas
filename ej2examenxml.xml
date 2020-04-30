@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<curriculum xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="ejexamenxsd.xsd">
+
+<curriculum id="1234" fecha="12/02/2019">
+  <datos_personales>
+    <nombre>Andrea</nombre>
+    <apellido1>Solís</apellido1>
+    <apellido2>Tejada</apellido2>
+    <telefono>888888888</telefono>
+    <correo_electronico>andrea@gmail.com</correo_electronico>
+    <redes_sociales>
+    
+    </redes_sociales>
+  </datos_personales>
+</curriculum>

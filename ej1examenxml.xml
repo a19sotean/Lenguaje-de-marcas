@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE red SYSTEM "ej1examendtd.dtd"
+
+<red>
+  <centro type="instituto">
+    <nombre>Gran Capitán</nombre>
+    <grado>Desarrollo de aplicaciones web</grado>
+    <anyo>2020</anyo>
+  </centro>
+  <localizacion>
+    <ciudad>Córdoba</ciudad>
+    <comunidad>Andalucía</comunidad>
+  </localizacion>
+</red>

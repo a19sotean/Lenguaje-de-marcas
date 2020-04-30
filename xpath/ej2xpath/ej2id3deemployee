@@ -1,0 +1,4 @@
+﻿//   //employee[@id=3]   (Selecciona el elemento 'employee' cuyo valor de atributo ‘id’ sea 3.)
+
+
+<employee id="3">Robert De Niro</employee>

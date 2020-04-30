@@ -1,0 +1,8 @@
+﻿//   //employee[@id]   (Selecciona todos los elementos 'employee' que tienen el atributo 'id')
+
+
+<employee id="1">Johnny Dapp</employee>
+<employee id="2">Al Pacino</employee>
+<employee id="3">Robert De Niro</employee>
+<employee id="4">Kevin Spacey</employee>
+<employee id="5">Denzel Washington</employee>

@@ -1,0 +1,8 @@
+﻿//   /root/employees/employee   (Selecciona todos los elementos 'employee' que son hijos directos del elemento 'employees')
+
+
+<employee id="1">Johnny Dapp</employee>
+<employee id="2">Al Pacino</employee>
+<employee id="3">Robert De Niro</employee>
+<employee id="4">Kevin Spacey</employee>
+<employee id="5">Denzel Washington</employee>
